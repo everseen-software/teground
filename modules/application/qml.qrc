@@ -1,0 +1,30 @@
+<RCC>
+    <qresource prefix="/">
+        <file alias="main.qml">qml/main.qml</file>
+        <file alias="TimelineCategory.qml">qml/TimelineCategory.qml</file>
+        <file alias="DropDown.qml">qml/DropDown.qml</file>
+        <file alias="AddSequenceWindow.qml">qml/AddSequenceWindow.qml</file>
+        <file alias="TimelineRow.qml">qml/TimelineRow.qml</file>
+        <file alias="EditSequenceWindow.qml">qml/EditSequenceWindow.qml</file>
+        <file alias="ThemeDark.qml">qml/ThemeDark.qml</file>
+        <file alias="SequenceView.qml">qml/SequenceView.qml</file>
+        <file alias="EditSegmentWindow.qml">qml/EditSegmentWindow.qml</file>
+        <file alias="ErrorDialogInternal.qml">qml/ErrorDialogInternal.qml</file>
+        <file alias="MessageDialogInternal.qml">qml/MessageDialogInternal.qml</file>
+        <file alias="DecoderDropDown.qml">qml/DecoderDropDown.qml</file>
+        <file alias="InputDialogInternal.qml">qml/InputDialogInternal.qml</file>
+    </qresource>
+    <qresource prefix="/fonts">
+        <file alias="OpenSans-Bold.ttf">fonts/OpenSans-Bold.ttf</file>
+        <file alias="OpenSans-BoldItalic.ttf">fonts/OpenSans-BoldItalic.ttf</file>
+        <file alias="OpenSans-Italic.ttf">fonts/OpenSans-Italic.ttf</file>
+        <file alias="OpenSans-Regular.ttf">fonts/OpenSans-Regular.ttf</file>
+    </qresource>
+    <qresource prefix="/images">
+        <file alias="button-add-track.png">images/button-add-track.png</file>
+        <file alias="button-next-frame.png">images/button-next-frame.png</file>
+        <file alias="button-play.png">images/button-play.png</file>
+        <file alias="button-previous-frame.png">images/button-previous-frame.png</file>
+        <file alias="button-pause.png">images/button-pause.png</file>
+    </qresource>
+</RCC>
