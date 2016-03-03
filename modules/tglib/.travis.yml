@@ -1,0 +1,28 @@
+language: cpp
+
+compiler:
+  - gcc
+
+before_install:
+  - sudo add-apt-repository ppa:george-edison55/precise-backports --yes
+  - sudo apt-get update
+
+install:
+  - sudo apt-get install libopencv-dev cmake-data cmake
+
+before_script:
+  - git clone https://github.com/Itseez/opencv.git
+  - cd opencv
+  - git checkout 2.4
+  - mkdir build
+  - cd build
+  - cmake ..
+  - make -j8
+  - sudo make -j8 install
+  - cd ../..
+  - cd build
+  - cmake ../tests
+
+script: 
+  - make
+  - make check
